@@ -1,0 +1,40 @@
+.pattern-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #971C11;
+    gap: 20px;
+}
+
+.pattern-card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+.pattern-image {
+    width: 50%;
+}
+
+.pattern-title {
+    margin: 0;
+}
+
+.pattern-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.view-pattern-button {
+    background-color: #971C11;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: none;
+}
